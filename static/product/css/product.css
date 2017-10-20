@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+/*案例*/
+
+.case-list-con{
+    padding-bottom:10rem;
+}
+.case-nav li a{
+    display:block;
+    height:3rem;
+    font-size:1.8rem;
+    line-height:3rem;
+    padding:0 2rem;
+    color:#000;
+}
+.case-nav li a.active{
+    background:#000;
+    color:#fff;
+}
+
+.case-nav li a.active{
+    background:#000;
+    color:#fff;
+}
+
+
+.case-con h3{
+    font-size:2rem;
+    line-height:2rem;
+    margin-bottom:3rem;
+    font-weight:normal;
+    color:#000;
+    text-align:left;
+}
+.case-con-txt{
+    padding:3rem;
+}
+.case-con-txt p{
+    font-size:1.6rem;
+    line-height:2.4rem;
+    text-align:left;
+}
+.case-con-img p{
+    text-align:center;
+}
+.case-con-img p img{
+    width:100%;
+    margin:0 auto;
+}
+.case-con-others{
+    margin-top:5rem;
+}
+
+
+@media only screen and (max-width:751px){
+
+    /*案例中心*/
+    .case-nav{
+        background:#fff;
+        padding:3rem 1rem;
+    }
+    .case-nav li{
+        display:inline-block;
+        height:3rem;
+        line-height:3rem;
+        margint:0 1rem;
+    }
+    .case-nav li a{
+        display:block;
+        height:3rem;
+        font-size:1.4rem;
+        line-height:3rem;
+        padding:0 2rem;
+        color:#000;
+    }
+    .case-con{
+        padding:3rem 0;
+    }
+    .case-con-txt h3{
+        font-size:1.6rem;
+        line-height:1.6rem;
+        color:#000;
+        margin-bottom:3rem;
+    }
+    .case-list-con2 li{
+        width: 50%!important;
+    }
+}
+@media only screen and (min-width:1200px){
+
+    /*案例中心*/
+    .cases{
+        width:1200px;
+        background:#fff;
+        margin:0 auto;
+    }
+    .case-nav{
+        background:#fff;
+        padding:3rem 1rem;
+    }
+    .case-nav li{
+        display:inline-block;
+        height:3rem;
+        line-height:3rem;
+        margin-right:3rem;
+    }
+
+
+    /*案例详情*/
+    .case-con{
+        width:1200px;
+        padding:3rem 0;
+    }
+    .case-con-img p{
+        color:#333;
+        margin-bottom:1rem;
+    }
+    .case-list-con2 li{
+        width: 25%!important;
+    }
+}

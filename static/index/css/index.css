@@ -1,0 +1,253 @@
+@charset "utf-8";
+
+@media only screen and (max-width:641px){
+    body{
+        font-size:125%!important;
+        max-width:100%;
+    }
+    /*Banner*/
+    .slogen {
+        font-size: 4.5rem;
+        line-height:4.5rem;
+        font-weight:bold;
+        letter-spacing:.8rem;
+    }
+    .st-con1{
+        font-size:2rem;
+        line-height:2rem;
+        color:#fff;
+        margin-top:1rem;
+        font-weight: normal;
+    }
+}
+@media only screen and (max-width:751px){
+    body{
+        font-size:125%!important;
+        max-width:100%;
+    }
+
+    /*我们能做什么*/
+    .what .content{
+        padding:3rem 0;
+    }
+    .w-tit{
+        color:#333;
+        font-size:3rem;
+    }
+    .st-con2{
+        font-size:1.4rem;
+        line-height:4rem;
+        color: #666;
+        padding:1rem;
+        font-weight: normal;
+    }
+    .st-con2 a{
+        color:#fff;
+        line-height:4rem;
+        padding:0 .5rem;
+        background:#666;
+        -webkit-transition: opacity .4s ease-in-out;
+        -moz-transition: opacity .4s ease-in-out;
+        transition: opacity .4s ease-in-out;
+    }
+    .st-con2 a:hover{
+        opacity:.5;
+    }
+
+    /*案例*/
+
+
+    /*服务*/
+    .ser-con h2{
+        margin-top:3rem;
+    }
+    .ser-list li h4{
+        font-size:2rem;
+        font-weight:800;
+        color:#333;
+    }
+    .ser-list li{
+        padding:2rem 1rem;
+        background:#f8f8f8;
+    }
+    .ser-list li p{
+        font-size:1.5rem;
+        line-height:3rem;
+        margin-top:1rem;
+        padding:0 1rem;
+        color:#333;
+    }
+
+}
+
+
+@media only screen and (min-width:1200px){
+    body{
+        font-size:100%!important;
+        max-width:100%;
+        min-width:1200px;
+        margin:0 auto;
+    }
+
+    /*我们能做什么*/
+    .what .content{
+        width:1200px;
+        margin:0 auto;
+        padding:10rem 0;
+    }
+    .w-tit{
+        color: #15191d;
+        font-size:5rem;
+    }
+    .st-con2{
+        font-size:2rem;
+        line-height:5rem;
+        color: #15191d;
+        margin-top:1rem;
+        font-weight: normal;
+    }
+    .st-con2 a{
+        color:#fff;
+        padding:0 .5rem;
+        background: #15191d;
+        -webkit-transition: opacity .4s ease-in-out;
+        -moz-transition: opacity .4s ease-in-out;
+        transition: opacity .4s ease-in-out;
+    }
+    .st-con2 a:hover{
+        opacity:.5;
+    }
+
+
+    /*服务*/
+    .ser-con{
+        width:1200px;
+        margin:0 auto;
+        padding:10rem 0;
+    }
+    .ser-list li{
+        width:26%;
+        padding:2%;
+    }
+    .ser-list li:hover p{
+        opacity:1;
+    }
+
+    .ser-list li h4{
+        font-size:2rem;
+        font-weight:800;
+        color: #15191d;
+    }
+    .ser-list li p{
+        font-size:1.5rem;
+        line-height:3rem;
+        margin-top:1rem;
+        color: #15191d;
+        /*opacity:.6;*/
+        /*-webkit-transition: opacity .4s ease-in-out;*/
+        /*-moz-transition: opacity .4s ease-in-out;*/
+        /*transition: opacity .4s ease-in-out;*/
+    }
+}
+
+
+
+/*我们能做什么*/
+.what{
+    color:#333;
+}
+
+
+/*服务*/
+.services{
+    color:#333;
+}
+.ser-list{
+    margin:3rem 0 5rem;
+}
+.ser-list li{
+    display:inline-block;
+    margin:.5rem 0;
+    cursor:pointer;
+}
+
+
+
+@-webkit-keyframes varrow {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-moz-keyframes varrow {
+    from {
+        opacity: 0;
+        -moz-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0)
+    }
+    to {
+        opacity: 1;
+        -moz-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes varrow {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -moz-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0)
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -30%, 0);
+        transform: translate3d(0, -30%, 0)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
